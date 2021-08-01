@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand&display=swap');
+
+.App {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  height:calc(100vh);
+  padding: 0px 12px;
+  background-color: #9146ff;
+  margin: -8px;
+}
+
+.card-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(75vh);
+  width: 100%;
+  max-width: 1000px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color:gainsboro;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 90vh);
+  background-color:gainsboro;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 28px;
+}
+
+.card-header img {
+  height: 90px;
+  width: 90px;
+  padding-left: 5px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 20vh);
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 10px;
+}
+
+.card-body-header {
+  padding: 2px;
+}
+
+button {
+  background-color: #ffc846;
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin: 0px;
+  cursor: pointer;
+  box-shadow: 2px 3px 6px #000;
+}
+
+button:hover {
+  background-color: #ebb025;
+  transition: background-color .5s;
+}
+
+.gif-area{
+  /* background-color: gold; */
+  padding-top: 50px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 90vh);
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+}
